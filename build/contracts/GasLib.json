@@ -1,0 +1,442 @@
+{
+  "contractName": "GasLib",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Library to add all efficient functions that could get repeated.\",\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"@erc725/smart-contracts/contracts/utils/GasLib.sol\":\"GasLib\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@erc725/smart-contracts/contracts/utils/GasLib.sol\":{\"keccak256\":\"0xe14b9134f285d02fcf967caaa6a0566c8e9e8197a9ed190021e310bd4b7fc6c7\",\"license\":\"Apache-2.0\",\"urls\":[\"bzz-raw://9b3439b3f97b78b1c167de8c930ce355790d6abdc4a73403f8dcdda44939454a\",\"dweb:/ipfs/Qmd57sRWDQGsYe2VU3mpbPMYrbiS1ZJWSPAUVQyodE44xN\"]}},\"version\":1}",
+  "bytecode": "0x60566050600b82828239805160001a6073146043577f4e487b7100000000000000000000000000000000000000000000000000000000600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220b647ed091abaae28cb885d873439fcc8906e02852747b06c5fad156c3688d35764736f6c634300080d0033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220b647ed091abaae28cb885d873439fcc8906e02852747b06c5fad156c3688d35764736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "144:227:5:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "144:227:5:-:0;;;;;;;;",
+  "source": "// SPDX-License-Identifier: Apache-2.0\npragma solidity ^0.8.0;\n\n/**\n * @dev Library to add all efficient functions that could get repeated.\n */\nlibrary GasLib {\n    /**\n     * @dev Will return unchecked incremented uint256\n     */\n    function uncheckedIncrement(uint256 i) internal pure returns (uint256) {\n        unchecked {\n            return i + 1;\n        }\n    }\n}\n",
+  "sourcePath": "@erc725/smart-contracts/contracts/utils/GasLib.sol",
+  "ast": {
+    "absolutePath": "@erc725/smart-contracts/contracts/utils/GasLib.sol",
+    "exportedSymbols": {
+      "GasLib": [
+        446
+      ]
+    },
+    "id": 447,
+    "license": "Apache-2.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 430,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:23:5"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "GasLib",
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": {
+          "id": 431,
+          "nodeType": "StructuredDocumentation",
+          "src": "64:79:5",
+          "text": " @dev Library to add all efficient functions that could get repeated."
+        },
+        "fullyImplemented": true,
+        "id": 446,
+        "linearizedBaseContracts": [
+          446
+        ],
+        "name": "GasLib",
+        "nameLocation": "152:6:5",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 444,
+              "nodeType": "Block",
+              "src": "306:63:5",
+              "statements": [
+                {
+                  "id": 443,
+                  "nodeType": "UncheckedBlock",
+                  "src": "316:47:5",
+                  "statements": [
+                    {
+                      "expression": {
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 441,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "id": 439,
+                          "name": "i",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 434,
+                          "src": "347:1:5",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "+",
+                        "rightExpression": {
+                          "hexValue": "31",
+                          "id": 440,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "351:1:5",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        },
+                        "src": "347:5:5",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "functionReturnParameters": 438,
+                      "id": 442,
+                      "nodeType": "Return",
+                      "src": "340:12:5"
+                    }
+                  ]
+                }
+              ]
+            },
+            "documentation": {
+              "id": 432,
+              "nodeType": "StructuredDocumentation",
+              "src": "165:65:5",
+              "text": " @dev Will return unchecked incremented uint256"
+            },
+            "id": 445,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "uncheckedIncrement",
+            "nameLocation": "244:18:5",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 435,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 434,
+                  "mutability": "mutable",
+                  "name": "i",
+                  "nameLocation": "271:1:5",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 445,
+                  "src": "263:9:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 433,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "263:7:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "262:11:5"
+            },
+            "returnParameters": {
+              "id": 438,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 437,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 445,
+                  "src": "297:7:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 436,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "297:7:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "296:9:5"
+            },
+            "scope": 446,
+            "src": "235:134:5",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 447,
+        "src": "144:227:5",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:333:5"
+  },
+  "legacyAST": {
+    "absolutePath": "@erc725/smart-contracts/contracts/utils/GasLib.sol",
+    "exportedSymbols": {
+      "GasLib": [
+        446
+      ]
+    },
+    "id": 447,
+    "license": "Apache-2.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 430,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:23:5"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "GasLib",
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": {
+          "id": 431,
+          "nodeType": "StructuredDocumentation",
+          "src": "64:79:5",
+          "text": " @dev Library to add all efficient functions that could get repeated."
+        },
+        "fullyImplemented": true,
+        "id": 446,
+        "linearizedBaseContracts": [
+          446
+        ],
+        "name": "GasLib",
+        "nameLocation": "152:6:5",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 444,
+              "nodeType": "Block",
+              "src": "306:63:5",
+              "statements": [
+                {
+                  "id": 443,
+                  "nodeType": "UncheckedBlock",
+                  "src": "316:47:5",
+                  "statements": [
+                    {
+                      "expression": {
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 441,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "id": 439,
+                          "name": "i",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 434,
+                          "src": "347:1:5",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "+",
+                        "rightExpression": {
+                          "hexValue": "31",
+                          "id": 440,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "351:1:5",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        },
+                        "src": "347:5:5",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "functionReturnParameters": 438,
+                      "id": 442,
+                      "nodeType": "Return",
+                      "src": "340:12:5"
+                    }
+                  ]
+                }
+              ]
+            },
+            "documentation": {
+              "id": 432,
+              "nodeType": "StructuredDocumentation",
+              "src": "165:65:5",
+              "text": " @dev Will return unchecked incremented uint256"
+            },
+            "id": 445,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "uncheckedIncrement",
+            "nameLocation": "244:18:5",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 435,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 434,
+                  "mutability": "mutable",
+                  "name": "i",
+                  "nameLocation": "271:1:5",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 445,
+                  "src": "263:9:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 433,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "263:7:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "262:11:5"
+            },
+            "returnParameters": {
+              "id": 438,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 437,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 445,
+                  "src": "297:7:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 436,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "297:7:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "296:9:5"
+            },
+            "scope": 446,
+            "src": "235:134:5",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 447,
+        "src": "144:227:5",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:333:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2022-08-28T10:41:49.380Z",
+  "devdoc": {
+    "details": "Library to add all efficient functions that could get repeated.",
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
