@@ -24,7 +24,7 @@
 
 ## Demo
 
-Live Website (https://spaceoz-poly-4qas0q.spheron.app/) deployed using Spheron
+Live Website (https://spaceoz-lukso.netlify.app/) deployed using Netlify
 
 Youtube Video Demo
 
