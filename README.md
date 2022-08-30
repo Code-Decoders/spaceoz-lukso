@@ -28,7 +28,7 @@ Live Website (https://spaceoz-lukso.netlify.app/) deployed using Netlify
 
 Youtube Video Demo
 
-[![Youtube Video](https://img.youtube.com/vi/qSU7_vmm8JA/sddefault.jpg)](https://youtu.be/qSU7_vmm8JA)
+[![Youtube Video](https://img.youtube.com/vi/BUffxPRM0cA/sddefault.jpg)](https://youtu.be/BUffxPRM0cA)
 
 
 
