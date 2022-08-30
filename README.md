@@ -1,6 +1,6 @@
 # SpaceOz
 
-> SpaceOzPoly is a community-led online "play-and-earn" gaming platform created by CodeDecoders for Lukso Blockchain.
+> SpaceOz is a community-led online "play-and-earn" gaming platform created by CodeDecoders for Lukso Blockchain.
 
 > Shoot asteroids and enemy ships to increase your score. The more you score the more tokens you will earn.
 > With your earned SPT tokens, upgrade your ship, buy new ships and buy extra accessories for your ship.
