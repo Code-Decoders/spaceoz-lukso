@@ -10,9 +10,9 @@
 
 - Ability to buy new ships and bullet upgrades
 - All modern browsers supported
-- Utilized the Tezos network for the In Game Token management
+- Utilized the Tezos network for the In Game Token management (using LSP-7 Standard)
 - Simple and fun to play Game
-- Multi-Ownership of NFTs
+- Multi-Ownership of NFTs 
 - Light/Dark Mode Available
 - Search for specific upgrades
 - Sort the upgrades based on their popularity, strengths and price
