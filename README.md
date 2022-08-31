@@ -104,11 +104,11 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
     
 ## Feedback & Contact
 
-If you have any feedback or contact, please reach out to us at maadhav2001@gmail.com
+If you have any feedback or contact, please reach out to us at jainkunal976@gmail.com
 
 
 ## Authors
 
-- [@Maadhav](https://www.github.com/Maadhav)
 - [@kunal528](https://www.github.com/kunal528)
+- [@Maadhav](https://www.github.com/Maadhav)
 
